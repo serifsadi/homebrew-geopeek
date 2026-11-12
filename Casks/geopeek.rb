@@ -1,10 +1,10 @@
 cask "geopeek" do
-  version "0.3.0"
-  sha256 "88dad30bb829e162405efe4f61826984cce7fa460af4f9b14ad24aa08ebd5b28"
+  version "0.4.0"
+  sha256 "ac9f2095155fda712a2595fea25e37b28ef7f4100b223dbc827765bdf6f21ed2"
 
   url "https://github.com/serifsadi/geopeek/releases/download/v#{version}/GeoPeek-#{version}.dmg"
   name "GeoPeek"
-  desc "Quick Look previews for GeoJSON files"
+  desc "Quick Look previews for GeoJSON, KML, KMZ, and GPX files"
   homepage "https://github.com/serifsadi/geopeek"
 
   livecheck do
@@ -12,7 +12,7 @@ cask "geopeek" do
     strategy :github_latest
   end
 
-  depends_on macos: :sonoma
+  depends_on macos: :sequoia
 
   app "GeoPeek.app"
 
