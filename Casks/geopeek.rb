@@ -1,6 +1,6 @@
 cask "geopeek" do
-  version "0.4.0"
-  sha256 "ac9f2095155fda712a2595fea25e37b28ef7f4100b223dbc827765bdf6f21ed2"
+  version "0.4.1"
+  sha256 "1599113e78b97d86ea1f988a304fdfa13345e2678972449e1e531b5fe0b7db30"
 
   url "https://github.com/serifsadi/geopeek/releases/download/v#{version}/GeoPeek-#{version}.dmg"
   name "GeoPeek"
