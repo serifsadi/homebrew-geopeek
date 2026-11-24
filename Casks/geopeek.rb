@@ -5,7 +5,7 @@ cask "geopeek" do
   url "https://github.com/serifsadi/geopeek/releases/download/v#{version}/GeoPeek-#{version}.dmg"
   name "GeoPeek"
   desc "Quick Look previews for GeoJSON, KML, KMZ, and GPX files"
-  homepage "https://github.com/serifsadi/geopeek"
+  homepage "https://geopeek.app"
 
   livecheck do
     url :url
